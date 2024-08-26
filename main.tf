@@ -22,6 +22,6 @@ resource "aws_instance" "example_instance" {
   subnet_id              = aws_subnet.example_subnet.id
 
   tags = {
-    Name = "example-instance"
+    Name = "example-instance-123"
   }
 }
