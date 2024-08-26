@@ -1,3 +1,0 @@
-# provider.tf
-
-provider "local" {}
