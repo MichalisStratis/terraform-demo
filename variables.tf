@@ -1,11 +1,3 @@
-variable "aws_region" {
-  description = "The AWS region to deploy resources into"
-  type        = string
-  default     = "us-west-2"
-}
+# variables.tf
 
-variable "instance_type" {
-  description = "Type of EC2 instance"
-  type        = string
-  default     = "t2.micro"
-}
+# No variables for this simple example
